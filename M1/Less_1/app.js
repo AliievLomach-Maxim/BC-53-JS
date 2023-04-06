@@ -158,7 +158,7 @@
 // ⁡⁢⁢⁢​‌‍‌Example 8 - Логічні оператори​⁡
 // Яким буде результат виразів?
 
-// console.log(true && null && 12 && 12)
+// console.log(true && true && null && 12)
 
 // console.log(false && 3)
 
@@ -176,7 +176,7 @@
 
 // console.log((1 && null && 2) > 0)
 
-console.log(null || (2 && 3) || 4)
+// console.log(null || (2 && 3) || 4)
 
 // ⁡⁢⁢⁢_______________________________________________________________________________________________________________________________________⁡
 
@@ -186,10 +186,16 @@ console.log(null || (2 && 3) || 4)
 // Перевір роботу скрипта для наступних значень змінної incomingValue: null, undefined, 0, false.
 // Використовуй оператор ?? (nullish coalescing operator).
 
+// && ||
+// ??
+
+// null undefined
+// null ?? 0 ?? undefined ?? '' ?? false ?? NaN
+
 // const incomingValue = 0
 // const defaultValue = 10
 
-// const value = incomingValue || defaultValue
+// const value = incomingValue ?? defaultValue
 // console.log(value)
 
 // ⁡⁢⁢⁢_______________________________________________________________________________________________________________________________________⁡
