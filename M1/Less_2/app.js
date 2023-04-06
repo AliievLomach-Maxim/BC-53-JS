@@ -296,8 +296,8 @@
 
 // scope
 
-if (10) {
-	const x = 100
-	console.log('x with if:>> ', x)
-}
-console.log('x :>> ', x)
+// if (10) {
+// 	const x = 100
+// 	console.log('x with if:>> ', x)
+// }
+// console.log('x :>> ', x)
