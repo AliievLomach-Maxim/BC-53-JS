@@ -1,4 +1,4 @@
-// import './style.css'
+import './style.css'
 // import Number, {
 // 	generateRandomColor,
 // 	generateRandomColor1,
@@ -19,4 +19,5 @@
 
 // document.body.appendChild(component())
 // import './scripts/less 15/app'
-import './scripts/Less17/app'
+// import './scripts/Less 17/app'
+import './scripts/Less 18/app'
