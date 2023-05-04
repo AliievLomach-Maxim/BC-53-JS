@@ -1,5 +1,31 @@
 @import './styles/app.css';
 
 body {
-	background-color: rgb(174, 102, 14);
+	background-color: rgb(63, 77, 67);
+}
+#box,
+#box2 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+}
+
+#box.move {
+	animation-name: move;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+#box2.move {
+	animation-name: move;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+}
+@keyframes move {
+	from {
+		left: 0;
+	}
+	to {
+		left: 600px;
+	}
 }
