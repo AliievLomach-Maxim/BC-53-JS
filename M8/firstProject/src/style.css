@@ -29,3 +29,9 @@ body {
 		left: 600px;
 	}
 }
+
+.pagination li {
+	display: inline-block;
+	margin-left: 20px;
+	cursor: pointer;
+}
