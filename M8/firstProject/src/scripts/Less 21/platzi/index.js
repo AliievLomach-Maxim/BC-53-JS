@@ -75,3 +75,18 @@ function handleClickList({ target }) {
 		deleteProduct(target.parentElement.id, createProductsList)
 	}
 }
+
+// nfn
+// function
+// clo
+// clg
+
+// ? for mac // cmd + arrow left or right
+
+// ctrl + d
+// ctrl + f2
+
+// alt + shift + arrow down or up >>> duplicate
+// alt + arrow down or up >>> move up or down
+// ctrl + /
+// ctrl + arrow >> move by word
